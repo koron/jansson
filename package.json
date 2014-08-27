@@ -1,10 +1,8 @@
 {
   "name": "jansson",
   "version": "0.0.1",
+  "description": "jannson (JSON) for clib",
   "repo": "koron/jansson",
-  "directories": {
-    "src": "src"
-  },
   "src": [
     "src/dump.c",
     "src/error.c",
@@ -24,5 +22,15 @@
     "src/utf.c",
     "src/utf.h",
     "src/value.c"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koron/jansson.git"
+  },
+  "keywords": [ "parse", "json", "clib" ],
+  "author": "MURAOKA Taro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koron/jansson/issues"
+  }
 }
