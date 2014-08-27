@@ -1,0 +1,38 @@
+{
+  "name": "jansson",
+  "version": "0.0.1",
+  "description": "jansson - C library for encoding, decoding and manipulating JSON data, adapted to be installable via clib.",
+  "directories": {
+    "src": "src"
+  },
+  "src": [
+    "src/dump.c",
+    "src/error.c",
+    "src/hashtable.c",
+    "src/hashtable.h",
+    "src/jansson.def",
+    "src/jansson.h",
+    "src/jansson_config.h.in",
+    "src/jansson_private.h",
+    "src/load.c",
+    "src/lookup3.h",
+    "src/memory.c",
+    "src/pack_unpack.c",
+    "src/strbuffer.c",
+    "src/strbuffer.h",
+    "src/strconv.c",
+    "src/utf.c",
+    "src/utf.h",
+    "src/value.c"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/koron/jansson"
+  },
+  "keywords": [
+    "parse",
+    "json",
+    "clib"
+  ],
+}
