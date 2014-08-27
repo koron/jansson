@@ -1,7 +1,7 @@
 {
   "name": "jansson",
   "version": "0.0.1",
-  "description": "jansson - C library for encoding, decoding and manipulating JSON data, adapted to be installable via clib.",
+  "repo": "koron/jansson",
   "directories": {
     "src": "src"
   },
@@ -24,15 +24,5 @@
     "src/utf.c",
     "src/utf.h",
     "src/value.c"
-  ],
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/koron/jansson"
-  },
-  "keywords": [
-    "parse",
-    "json",
-    "clib"
-  ],
+  ]
 }
